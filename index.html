@@ -1,0 +1,62 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(45deg, #1a1a2e, #16213e);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #fff;
+        }
+
+        .coming-soon-box {
+            text-align: center;
+            background: linear-gradient(135deg, #ff7f50, #ffd700, #32cd32, #1e90ff, #9400d3);
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            border: 3px solid rgba(255, 255, 255, 0.5);
+            border-radius: 15px;
+            padding: 50px 30px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            animation: pulse 2s infinite;
+        }
+
+        .coming-soon-text {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .wait-text {
+            margin-top: 20px;
+            font-size: 1.5rem;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            }
+            50% {
+                transform: scale(1.05);
+                box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="coming-soon-box">
+        <div class="coming-soon-text">Coming Soon....</div>
+        <div class="wait-text">RAJ-XNETWORK</div>
+    </div>
+</body>
+</html>
